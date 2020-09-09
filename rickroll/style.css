@@ -1,0 +1,35 @@
+body{
+    background-color: #3D3837;
+    color: #F0E5F2;
+    font:courier,monospace;
+    line-height: 1.6em;
+    margin: 0;
+
+}
+.container{
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+.container h1{
+    color: #F0C6BE  ;
+    text-decoration: underline;
+    text-shadow: #3D3837;
+}
+
+.box-1{
+    background-color:#DAF7A6  ;
+    color:#3D3837;
+    font-family: monospace;
+    letter-spacing: 0.04em;
+    word-spacing: normal;
+    border-right: 5px  #C70039 solid;
+    border-radius: 15px;
+    padding:5px;
+    margin-top: 40px;
+    
+}
+.box-1 h3{
+    font-style:italic;
+
+}
