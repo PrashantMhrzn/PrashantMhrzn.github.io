@@ -34,43 +34,84 @@
   <section id="projects" class="py-5 bg-light">
     <div class="container">
       <h2 class="fw-bold text-center mb-4">Featured Projects</h2>
-      <p class="text-center text-muted mb-5">A selection of my recent work</p>
+      <p class="text-center text-muted mb-5">A selection of my Django backend projects</p>
       <div class="row g-4">
-        <div class="col-md-4">
+        <!-- Kinnel E-Commerce -->
+        <div class="col-md-6">
           <div class="card shadow-sm h-100">
-            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 1">
             <div class="card-body">
-              <h5 class="card-title fw-bold">E-Commerce Platform</h5>
-              <p class="card-text">A full-stack e-commerce solution with secure payments, inventory management, and admin dashboard.</p>
-              <span class="badge bg-secondary">React</span>
-              <span class="badge bg-secondary">Node.js</span>
-              <span class="badge bg-secondary">MongoDB</span>
+              <h5 class="card-title fw-bold">Kinmel - E-Commerce Backend</h5>
+              <p class="card-text">A comprehensive E-Commerce backend API with customer, seller, delivery and admin roles. Features checkout flow with email notifications and inventory management with cart and order system.</p>
+              <div class="mb-3">
+                <span class="badge bg-secondary">Django REST Framework</span>
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">PostgreSQL</span>
+                <span class="badge bg-secondary">JWT Authentication</span>
+              </div>
+              <ul class="small text-muted">
+                <li>Role-based authentication and authorization</li>
+                <li>Email-integrated checkout system</li>
+                <li>Modular architecture for product and order management</li>
+                <li>Filtering, searching, pagination</li>
+              </ul>
+              <a href="https://github.com/PrashantMhrzn/Kinmel" class="btn btn-sm btn-outline-custom me-2">
+                  <i class="bi bi-github"></i> GitHub
+                </a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4">
+        <!-- BorrowBox Library -->
+        <div class="col-md-6">
           <div class="card shadow-sm h-100">
-            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 2">
             <div class="card-body">
-              <h5 class="card-title fw-bold">Task Management App</h5>
-              <p class="card-text">Collaborative task manager supporting Kanban workflows, user roles, and notifications.</p>
-              <span class="badge bg-secondary">Vue.js</span>
-              <span class="badge bg-secondary">Express</span>
-              <span class="badge bg-secondary">MySQL</span>
+              <h5 class="card-title fw-bold">BorrowBox - Library Management</h5>
+              <p class="card-text">A Django REST Framework-based Library Management System with role-based authentication, dynamic fine calculation, book reservations, and user reviews with full documentation.</p>
+              <div class="mb-3">
+                <span class="badge bg-secondary">Django REST Framework</span>
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">PostgreSQL</span>
+                <span class="badge bg-secondary">Swagger/OpenAPI</span>
+              </div>
+              <ul class="small text-muted">
+                <li>RESTful APIs for books, users, and transactions</li>
+                <li>Dynamic fine calculation based on return dates</li>
+                <li>Customized Admin dashboard</li>
+                <li>User review system with filtering & pagination</li>
+              </ul>
+              <a href="https://github.com/PrashantMhrzn/Borrow-Box" class="btn btn-sm btn-outline-custom me-2">
+                  <i class="bi bi-github"></i> GitHub
+                </a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4">
+         <!-- Little Link URL Shortener -->
+        <div class="col-md-6">
           <div class="card shadow-sm h-100">
-            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 3">
             <div class="card-body">
-              <h5 class="card-title fw-bold">Portfolio CMS</h5>
-              <p class="card-text">A headless CMS for creatives to showcase their portfolio with customizable themes.</p>
-              <span class="badge bg-secondary">Next.js</span>
-              <span class="badge bg-secondary">GraphQL</span>
-              <span class="badge bg-secondary">AWS</span>
+              <h5 class="card-title fw-bold">Little Link - URL Shortener</h5>
+              <p class="card-text">A Django-based URL shortener web application that allows users to create, manage, and track shortened URLs with user authentication and click analytics.</p>
+              <div class="mb-3">
+                <span class="badge bg-secondary">Django</span>
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">Bootstrap 5</span>
+                <span class="badge bg-secondary">SQLite</span>
+                <span class="badge bg-secondary">User Authentication</span>
+              </div>
+              <ul class="small text-muted">
+                <li>Secure user registration, login, and logout system</li>
+                <li>Custom short URLs with 6-character codes or custom aliases</li>
+                <li>Click analytics to track URL performance</li>
+                <li>URL management dashboard with edit/delete functionality</li>
+                <li>Automatic redirection system with validation</li>
+              </ul>
+              <div class="mt-3">
+                <a href="https://github.com/PrashantMhrzn/Little-Link" class="btn btn-sm btn-outline-custom me-2">
+                  <i class="bi bi-github"></i> GitHub
+                </a>
+                <a href="https://prashantmaharjan.pythonanywhere.com" class="btn btn-sm btn-custom">
+                  <i class="bi bi-play-circle"></i> Live Demo
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -81,60 +122,46 @@
   <!-- Skills Section -->
   <section id="skills" class="py-5">
     <div class="container">
-      <h2 class="fw-bold text-center mb-4">Skills & Expertise</h2>
+      <h2 class="fw-bold text-center mb-4">Technical Skills</h2>
       <p class="text-center text-muted mb-5">Technologies and tools I work with</p>
       <div class="row g-4">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="card h-100 shadow-sm text-center p-3">
             <i class="bi bi-code-slash text-custom fs-1 mb-3"></i>
-            <h5 class="fw-bold">Frontend Development</h5>
+            <h5 class="fw-bold">Languages & Frameworks</h5>
             <ul class="list-unstyled mt-3">
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>React / Next.js</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>TypeScript</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Tailwind CSS</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Vue</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>HTML & CSS3</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="card h-100 shadow-sm text-center p-3">
-            <i class="bi bi-server text-custom fs-1 mb-3"></i>
-            <h5 class="fw-bold">Backend Development</h5>
-            <ul class="list-unstyled mt-3">
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Django</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Python</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>PostgreSQL</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Python (Django, Flask)</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>JavaScript (Node.js)</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Django REST Framework</li>
               <li><i class="bi bi-check-circle-fill text-custom me-2"></i>REST APIs</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Authentication</li>
             </ul>
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="card h-100 shadow-sm text-center p-3">
-            <i class="bi bi-palette text-custom fs-1 mb-3"></i>
-            <h5 class="fw-bold">Design & UI/UX</h5>
+            <i class="bi bi-database text-custom fs-1 mb-3"></i>
+            <h5 class="fw-bold">Databases & Tools</h5>
             <ul class="list-unstyled mt-3">
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Figma</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Adobe XD</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Responsive Design</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Accessibility</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Prototyping</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>PostgreSQL</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>MongoDB</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>SQL & NoSQL</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Git/GitHub</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Postman</li>
             </ul>
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="card h-100 shadow-sm text-center p-3">
             <i class="bi bi-tools text-custom fs-1 mb-3"></i>
-            <h5 class="fw-bold">Tools & Others</h5>
+            <h5 class="fw-bold">Platforms & Other Skills</h5>
             <ul class="list-unstyled mt-3">
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Git & GitHub</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Docker</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>CI/CD</li>
-              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Agile / Scrum</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Linux (Debian, Arch, Fedora)</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>VS Code & Android Studio</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Figma & Canva</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>Basic SEO</li>
+              <li><i class="bi bi-check-circle-fill text-custom me-2"></i>IT Support & Networking</li>
             </ul>
           </div>
         </div>
@@ -149,20 +176,86 @@
       <p class="text-center text-muted mb-5">My professional journey</p>
       <div class="timeline">
         <div class="card mb-4 shadow-sm p-3">
-          <h5 class="fw-bold">Senior Frontend Developer</h5>
-          <p class="mb-1"><span class="text-custom">Tech Innovations Inc.</span> | <span class="text-custom">2022 - Present</span></p>
-          <ul>
-            <li>Leading frontend development for enterprise apps.</li>
-            <li>Mentoring junior developers and improving UI performance by <span class="text-custom">40%</span>.</li>
-            <li>Integration design system across <span class="text-custom">5+ products</span>.</li>
+          <div class="d-flex align-items-center mb-3">
+            <img src="assets/reaction-nepal-logo.png" alt="Reaction Nepal Consultants" class="me-3" style="width: 70px; height: 70px; object-fit: contain;">
+            <div>
+              <h5 class="fw-bold mb-0">Web Operations & Creative Digital Design</h5>
+              <p class="mb-0"><span class="text-custom">Reaction Nepal Consultants</span> | <span class="text-custom">Kathmandu, Nepal (Hybrid)</span></p>
+            </div>
+          </div>
+          <ul class="list-unstyled mb-0">
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Design promotional banners for digital platforms using Canva, GIMP and Adobe tools</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Maintain website content and ensure UI consistency across pages</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Support digital campaigns by coordinating with social media team and managing CMS posts</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Formulate appropriate Meta tags and slugs for blogs – SEO duties</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Running website administration duties for smooth operations</span>
+            </li>
           </ul>
         </div>
+        
         <div class="card mb-4 shadow-sm p-3">
-          <h5 class="fw-bold">Full Stack Developer</h5>
-          <p class="mb-1"><span class="text-custom">Digital Solutions Co.</span> | <span class="text-custom">2020 - 2022</span></p>
-          <ul>
-            <li>Built and maintained React + Node.js apps.</li>
-            <li>Reduced API latency by <span class="text-custom">60%</span> via optimized endpoints.</li>
+          <div class="d-flex align-items-center mb-3">
+            <img src="assets/cognifyz-logo.png" alt="Cognifyz Technologies" class="me-3" style="width: 70px; height: 70px; object-fit: contain;">
+            <div>
+              <h5 class="fw-bold mb-0">Python Developer Intern</h5>
+              <p class="mb-0"><span class="text-custom">Cognifyz Technologies</span> | <span class="text-custom">Remote (India)</span></p>
+            </div>
+          </div>
+          <ul class="list-unstyled mb-0">
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Completed project-based internship focused on Python automation and scripting</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Built tools including password strength checker, file renamer, web scraper, and data visualizations</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Practiced clean code, OOP concepts, modular design, and real-world problem-solving</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="card mb-4 shadow-sm p-3">
+          <div class="d-flex align-items-center mb-3">
+            <img src="assets/verandah-logo.png" alt="Verandah Precinct" class="me-3" style="width: 70px; height: 70px; object-fit: contain;">
+            <div>
+              <h5 class="fw-bold mb-0">Bartender & Section Waiter</h5>
+              <p class="mb-0"><span class="text-custom">Verandah Precinct</span> | <span class="text-custom">Sydney, Australia</span></p>
+            </div>
+          </div>
+          <ul class="list-unstyled mb-0">
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Provided friendly and professional customer service in fast-paced hospitality environment</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Handled POS transactions, managed customer orders, and resolved issues efficiently</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Coordinated with kitchen and bar teams to ensure smooth service flow</span>
+            </li>
+            <li class="d-flex align-items-start mb-2">
+              <i class="bi bi-dot text-custom me-2 mt-1"></i>
+              <span>Developed strong interpersonal skills, teamwork, adaptability and conflict resolution</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -172,19 +265,44 @@
   <!-- Education -->
   <section id="education" class="py-5">
     <div class="container">
-      <h2 class="fw-bold text-center mb-4">Education</h2>
-      <p class="text-center text-muted mb-5">Academic background and certifications</p>
+      <h2 class="fw-bold text-center mb-4">Education & Certifications</h2>
+      <p class="text-center text-muted mb-5">Academic background and professional development</p>
       <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-10">
           <div class="card mb-4 shadow-sm p-3">
-            <h5 class="fw-bold">Bachelor of Science in Computer Science</h5>
-            <p class="mb-1"><span class="text-custom">University of Technology</span> | <span class="text-custom">2014 - 2018</span></p>
-            <p>Focused on software engineering, algorithms, and web development. Graduated with honors.</p>
+            <div class="d-flex align-items-center mb-3">
+              <img src="assets/crown-institute-logo.png" alt="Crown Institute of Higher Education" class="me-3" style="width: 70px; height: 70px; object-fit: contain;">
+              <div>
+                <h5 class="fw-bold mb-0">Bachelor of Information Technology (BIT)</h5>
+                <p class="mb-0"><span class="text-custom">Crown Institute of Higher Education (C1HE)</span> | <span class="text-custom">North Sydney, Sydney, Australia</span></p>
+                <p class="mb-0"><span class="text-custom">March 2022 – February 2025</span></p>
+              </div>
+            </div>
+            <p class="mb-0 mt-2">3.54/4.0 CGPA with High Distinction in Computer and English among other subjects</p>
           </div>
+          
+          <div class="card mb-4 shadow-sm p-3">
+            <div class="d-flex align-items-center mb-3">
+              <img src="assets/mindrisers-logo.png" alt="Mindrisers Institute of Technology" class="me-3" style="width: 70px; height: 70px; object-fit: contain;">
+              <div>
+                <h5 class="fw-bold mb-0">Python with Django Training</h5>
+                <p class="mb-0"><span class="text-custom">Mindrisers Institute of Technology</span></p>
+                <p class="mb-0"><span class="text-custom">Completed: June 25, 2025 | Duration: 3 months</span></p>
+              </div>
+            </div>
+            <p class="mb-0 mt-2">Certificate ID: MR-81066-PD</p>
+          </div>
+          
           <div class="card shadow-sm p-3">
-            <h5 class="fw-bold">Full Stack Web Development Bootcamp</h5>
-            <p class="mb-1"><span class="text-custom">Code Academy</span> | <span class="text-custom">2018</span></p>
-            <p>Intensive 12-week program covering modern web development technologies and best practices.</p>
+            <div class="d-flex align-items-center mb-3">
+              <img src="assets/southwestern-logo.png" alt="Southwestern State College" class="me-3" style="width: 70px; height: 70px; object-fit: contain;">
+              <div>
+                <h5 class="fw-bold mb-0">10+2 (High School Degree)</h5>
+                <p class="mb-0"><span class="text-custom">Southwestern State College</span> | <span class="text-custom">Kathmandu, Nepal</span></p>
+                <p class="mb-0"><span class="text-custom">September 2018 – December 2020</span></p>
+              </div>
+            </div>
+            <p class="mb-0 mt-2">3.55/4.0 CGPA with High Distinction in Computer and English among other subjects</p>
           </div>
         </div>
       </div>
@@ -196,10 +314,15 @@
     <h4 class="fw-bold mb-3">Let's Work Together</h4>
     <p class="text-muted">I'm always open to discussing new projects and opportunities</p>
     <div class="mt-3">
-      <a href="#" class="me-3 text-custom"><i class="bi bi-github fs-4"></i></a>
-      <a href="#" class="me-3 text-custom"><i class="bi bi-linkedin fs-4"></i></a>
-      <a href="#" class="text-custom"><i class="bi bi-envelope fs-4"></i></a>
+      <a href="https://github.com/PrashantMhrzn" class="me-3 text-custom"><i class="bi bi-github fs-4"></i></a>
+      <a href="https://linkedin.com/in/prashant-maharjan-cs" class="me-3 text-custom"><i class="bi bi-linkedin fs-4"></i></a>
+      <a href="mailto:prashantmaharjan5@gmail.com" class="text-custom"><i class="bi bi-envelope fs-4"></i></a>
     </div>
+    <p class="mt-4 text-muted small">
+      <span class="text-custom">Kathmandu, Nepal</span> • 
+      <span class="text-custom">prashantmaharjan5@gmail.com</span> • 
+      <span class="text-custom">9841298428</span>
+    </p>
     <p class="mt-4 text-muted small">&copy; 2025 <span class="text-custom">Prashant Maharjan</span>. All rights reserved.</p>
   </footer>
 
